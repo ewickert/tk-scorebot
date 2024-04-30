@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>tk_scorebot</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishSingleFile>true</PublishSingleFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="commanddotnet" Version="7.0.4" />
+    <PackageReference Include="commanddotnet.spectre" Version="3.0.2" />
+    <PackageReference Include="discord-webhooks-net" Version="1.0.0" />
+    <PackageReference Include="triviakings-net" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
